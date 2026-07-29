@@ -16,10 +16,10 @@ INSERT INTO Student(StudentID,StudentName,Gender,DepartmentID)
 VALUES
 (1001,'Arun','Male',101),
 (1002,'Divya','Female',102),
-(1003,'Karthik','Male',101);
-
--- Update Karthik's DepartmentID
-
--- Delete StudentID 1002
-
--- Display all records
+(1003,'Karthik','Male',103);
+UPDATE Student
+SET Department=102
+WHERE StudentName='karthik';
+DELETE FROM Student
+WHERE StudentID =1002;
+SELECT* FROM Student;
