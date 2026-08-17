@@ -8,11 +8,12 @@ USE CollegeDB;
 -- Display students with Marks > 80
 
 -- Sort by Marks DESC
+
 CREATE TABLE Marksheet (
   RollNo INT PRIMARY KEY,
-  Name VARCHAR (50)
-  Department VARCHAR(20)
-  Marks INT
+  Name VARCHAR (50),
+  Department VARCHAR(20),
+  Marks INT);
  
   INSERT INTO Marksheet VALUES (1,'Arun','CSE',85);
   INSERT INTO Marksheet VALUES (2,'Divya','IT',78);
