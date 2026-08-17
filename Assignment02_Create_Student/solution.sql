@@ -15,6 +15,7 @@ USE CollegeDB;
 -- DepartmentID
 
 -- Add constraints
+DROP DATABASE IF EXISTS CollegeDB;
 USE College;
 
 DROP TABLE Student;
